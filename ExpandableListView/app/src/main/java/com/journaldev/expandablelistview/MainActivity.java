@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity
     Location mLastLocation;
     TextView mLatitudeText;
     TextView mLongitudeText;
-    @Override
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
